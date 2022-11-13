@@ -10,13 +10,13 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteTitle: `idlunked Portfolio`,
+    siteTitleAlt: `idlunked Portfolio`,
+    siteHeadline: `idlunked Portfolio`,
+    siteUrl: `https://idlunkedportfolio.gatsbyjs.io/`,
+    siteDescription: `This is the portfolio website of idlunked, an upcoming photographer pursuing B.Sc. Photography`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@deepaklunked`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -26,8 +26,8 @@ module.exports = {
       options: {
         navigation: [
           { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
           { name: `About`, slug: `/about` },
+          { name: `Contact`, slug: `/contact` },
         ],
       },
     },

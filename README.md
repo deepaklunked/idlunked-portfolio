@@ -9,6 +9,8 @@
 
 This is the portfolio website of [`idlunked`](https://instagram.com/idlunked), an upcoming photographer pursuing B.Sc. Photography.
 
-## 🌟 References
+[Live Preview](https://idlunkedportfolio.gatsbyjs.io/)
+
+## References
 
 This project was built using the Gatsby Theme [`@lekoarts/gatsby-theme-jodie`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-jodie) by [`@lekoarts`](https://github.com/LekoArts).
