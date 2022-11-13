@@ -10,3 +10,7 @@
 header img.logo {
   width: 250%;
 }
+
+nav li a, .item-list span {
+  font-size: 1rem !important;
+}
