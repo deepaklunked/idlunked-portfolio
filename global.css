@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Work Sans';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
@@ -7,10 +7,88 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+header a {
+  width: 100% !important;
+}
+
 header img.logo {
-  width: 250%;
+  width: 100%;
+  max-width: 250px;
 }
 
 nav li a, .item-list span {
   font-size: 1rem !important;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+}
+
+nav li {
+  padding: 0.25rem 0;
+}
+
+.content-wrapper > * {
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img.me {
+  height: 67vh;
+}
+
+img.contact {
+  width: 80%;
+}
+
+.social {
+  height: 200px;
+}
+
+main div {
+  font-size: 1.25rem !important;
+}
+
+main h1 {
+  font-size: 2.25rem !important;
+}
+
+main h2 {
+  font-size: 1.75rem !important;
+}
+
+main p {
+  font-size: 0.85rem !important;
+}
+
+footer * {
+  font-size: 0.75rem;
+}
+
+
+@media screen and (max-width: 1023px) {
+  header {
+    position: sticky !important;
+    top: 0 !important;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    background: transparent !important;
+    backdrop-filter: blur(20px) contrast(0.75);
+  }
+
+  header a {
+    max-width: 25vw !important;
+  }
+
+  .content-wrapper > * {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    position: fixed !important;
+  }
 }

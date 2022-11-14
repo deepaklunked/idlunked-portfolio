@@ -10,7 +10,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `idlunked Portfolio`,
+    siteTitle: `deepaklunked`,
     siteTitleAlt: `idlunked Portfolio`,
     siteHeadline: `idlunked Portfolio`,
     siteUrl: `https://idlunkedportfolio.gatsbyjs.io/`,
@@ -25,10 +25,10 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
           { name: `About`, slug: `/about` },
           { name: `Contact`, slug: `/contact` },
         ],
+        homepageProjectLimit: 5,
       },
     },
     {
